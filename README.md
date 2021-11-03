@@ -10,13 +10,13 @@ O projeto é no formato maven, podendo ser importado utilizando esse modelo de p
 
 Ele utiliza um banco de dados H2 em memória para facilitar a súbida e alguns testes, pela simplicidade de gerenciar esse banco, não sendo recomendado para outros ambientes, já que ao efetuar o down da aplicação os dados são perdidos.
 
-o projeto está configurado inicialmente para rodar na porta 8085.
+o projeto está configurado inicialmente para rodar na porta 8080.
 
 ##desafios
 Nível 1:
 Desenvolva uma API que esteja de acordo com os requisitos propostos acima, que seja capaz de validar uma
 sequência de DNA e identificar corretamente símios e humanos.
-Para atender o nível 1 foi criada o endpoint simian que pode ser acessado usando a URL localhost:8085/simian
+Para atender o nível 1 foi criada o endpoint simian que pode ser acessado usando a URL localhost:8080/simian
 
 Nível 2:
 Use um banco de dados de sua preferência para armazenar os DNAs verificados pela API. Esse banco deve
@@ -25,6 +25,6 @@ Disponibilizar um outro endpoint "/stats" que responde um HTTP GET. A resposta d
 retorna as estatísticas de verificações de DNA, onde deve informar a quantidade de DNA’s símios,
 quantidade de DNA’s humanos, e a proporção de símios para a população humana. Segue exemplo da
 resposta:
-Para atender o nível 1 foi criada o endpoint stats que pode ser acessado usando a URL localhost:8085/stats
+Para atender o nível 1 foi criada o endpoint stats que pode ser acessado usando a URL localhost:8080/stats
 Observação: não deve ser utilizado sem cadastrar inicialmente um DNA.
 
