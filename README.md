@@ -10,7 +10,7 @@ O projeto é no formato maven, podendo ser importado utilizando esse modelo de p
 
 Ele utiliza um banco de dados H2 em memória para facilitar a súbida e alguns testes, pela simplicidade de gerenciar esse banco, não sendo recomendado para outros ambientes, já que ao efetuar o down da aplicação os dados são perdidos.
 
-o projeto está configurado inicialmente para rodar na porta 8085.
+o projeto está configurado inicialmente para rodar na porta 8080.
 
 ##desafios
 Nível 1:
