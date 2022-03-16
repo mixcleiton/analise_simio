@@ -1,5 +1,5 @@
-# desafio_meli
-Projeto para atender o desafio proposto pela equipe do MELI
+# Análise Símio
+Projeto que faz a análise de cadeias de DNAs, para identificar se é um DNA Símio.
 
 ## dependencias
 
